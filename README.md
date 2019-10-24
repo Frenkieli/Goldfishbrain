@@ -1,5 +1,6 @@
 # Goldfishbrain
-=====
+
+====
 
 ## 金魚腦30天練習（要加簡單RWD喔！）
 ----
@@ -11,7 +12,7 @@
 * day02 格子窗的應用
 
 >hover運用，和四個動畫的運用
-
+>
 >>opacity transform transform-origin clip-path 四種
 
 * day03 卡片式人員介紹應用
@@ -21,7 +22,7 @@
 * day04 交錯漂浮式版面
 
 >然後flex的flex-shrink伸縮比製作出來的
-
+>
 >運用選取器讓第一個div的margin-right: -10%;
 
 * day05 超通用橫式版面
