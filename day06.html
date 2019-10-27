@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body{
+            background-color: #000;
+        }
+        .main-footer{
+            padding: 150px 0 0;
+            background: linear-gradient(-20deg,#3f5494,#08c7a5);
+        }
+        .main-footer .container{
+            /* display: flex; */
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .main-footer .container::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer-item{
+            /* width: 0;
+            flex-grow: 1; */
+            width: 25%;
+            float: left;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .footer-item h4{
+            font-size: 24px;
+            color: #ffffff;
+            border-bottom: 1px dotted #fff;
+            margin-bottom: 0.5em;
+            padding: 0.5em;
+        }
+        .footer-item nav{
+            /* display: flex;
+            flex-direction: column; */
+        }
+        .footer-item nav a{
+            display: block;
+            color: #ffffff;
+            line-height: 1.6;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+        .footer-item nav a:hover{
+            color: #fa0
+        }
+        .footer-sub{
+            /* display: flex; */
+            /* flex-direction: column; */
+            height: 100%;
+
+        }
+        /* footer-sub 不會改 */
+        .footer-sub form{
+            display: flex;
+            margin: auto 0;
+            width: 100%;
+        }
+        .footer-sub input[type="text"],
+        .footer-sub input[type="submit"]{
+            border: none;
+            padding: 5px 10px;
+        }
+        .footer-sub input[type="text"]{
+            width: 0;
+            flex-grow: 1;
+        }
+        .footer-sub input[type="submit"]{
+            color: #fff;
+            background-color: #3e5293;
+        }
+        .copyright{
+            width: 100%;
+            text-align: center;
+            margin: 150px 0 0;
+            padding: 10px 0;
+            background-color: #3e5293;
+            color: #30f6df;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-item">
+                <h4>關於暴力課程</h4>
+                <nav>
+                    <a href="#"><i class="fa fa-angle-right"></i> 課程目標</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> 辦學理念</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> 課程宗旨</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>課程列表</h4>
+                <nav>
+                    <a href="#"><i class="fa fa-angle-right"></i> 暴力網頁班父們</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> RWW網頁深入理解</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> CSS3互動動畫設計</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> Bootstrap框架食物</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>服務項目</h4>
+                <nav>
+                    <a href="#"><i class="fa fa-angle-right"></i> 網站建置</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> 網站設計</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> 網站規劃</a>
+                    <a href="#"><i class="fa fa-angle-right"></i> 企業教育</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-sub">
+                <h4>訂閱電子報</h4>
+                <form>
+                    <input type="text" name="">
+                    <input type="submit" value="訂閱">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2019
+            金魚都能懂得網頁畫面怎麼切
+        </div>
+    </div>
+
+</body>
+
+</html>
