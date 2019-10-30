@@ -32,23 +32,48 @@
 >改寫成在包一個box然後用padding做間隔後做%數！padding做間隔真的很好用！
 
 ```css
-            margin-top: auto;
-            /* 左右butto對齊喔! */
-            box-shadow: 0 10px 30px rgba(160, 0, 0, .5);
-            /* 讓陰影帶點背景色會更好看！！ */
+    margin-top: auto;
+    /* 左右butto對齊喔! */
+    box-shadow: 0 10px 30px rgba(160, 0, 0, .5);
+    /* 讓陰影帶點背景色會更好看！！ */
 ```
 下一篇
 
 * day06 網頁頁尾板塊
 
-尾巴部分還沒有改成不用flex，記得再回來改！
-
-用padding-top撐出高度然後內容絕對定位試試看好了
+>尾巴部分還沒有改成不用flex，記得再回來改！
+>
+>用padding-top撐出高度然後內容絕對定位試試看好了
 
 * day07 導覽列
 
 >transform不作用在inline元素上，所以day07那邊才會有bug，a改成inline-block之後就完成了
+>動畫跳動要多包一層不想管= =
+
+* day08 變化你的導覽列
+
+>姆...好吧，這個之後再重寫= =
+
+* day09 網站麵包屑
+
+>這個主要是選取器，就麵包屑
+
+* day10 方塊酥版面
+
+>方塊酥，練習float
+
+* day11 破格式設計
+
+>半圓形邊框可以用偽元素後設定４個邊框後兩個邊透明再變形旋轉
+
+* day12 表格怎麼切
+
+>表格caption用的css，可以控制在上面還是下面
+```css
+    caption-side: bottom;
+```
+
 
 下一個
 
-https://www.youtube.com/watch?v=9xT8kziyYko
+https://www.youtube.com/watch?v=yB3_LtwBiaE&list=PLqivELodHt3hxeuLX8PYaI8u1GcDaBoJo&index=14

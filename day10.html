@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body{
+            background-color: #000;
+        }
+        .wrap {
+            width: 100%;
+            margin: auto;
+            /* overflow: hidden; */
+        }
+        .wrap::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .item{
+            float: left;
+            position: relative;
+        }
+        .item img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .item:first-child{
+            width: 50%;
+        }
+        .item:first-child ~ .item{
+            width: 25%;
+        }
+        .item .txt{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            text-align: center;
+            box-sizing: border-box;
+            color: #fff;
+            background-color: rgba(0,0,0,.6);
+            display: flex;
+            /* display: none; */
+            opacity: 0;
+            transform: scale(0);
+            transition: 0.5s;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .item:hover .txt{
+            opacity: 1;
+            transform: scale(1);
+            /* display: flex; */
+        }
+        .item h3{
+            margin-bottom: 0.4em;
+        }
+        .item p{
+            font-weight: 100;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="wrap">
+        <div class="item">
+            <img src="https://picsum.photos/500/500/?random=1">
+            <div class="txt">
+                <h3>總算是的十分非常簡。</h3>
+                <p>而在時期，結束利用很快維護高手收費稱為我要，信心蒐集汽車營養默認除了東京美國，必須每一個最終春天超。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/500/500/?random=2">
+            <div class="txt">
+                <h3>總算是的十分非常簡。</h3>
+                <p>而在時期，結束利用很快維護高手收費稱為我要，信心蒐集汽車營養默認除了東京美國，必須每一個最終春天超。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/500/500/?random=3">
+            <div class="txt">
+                <h3>總算是的十分非常簡。</h3>
+                <p>而在時期，結束利用很快維護高手收費稱為我要，信心蒐集汽車營養默認除了東京美國，必須每一個最終春天超。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/500/500/?random=4">
+            <div class="txt">
+                <h3>總算是的十分非常簡。</h3>
+                <p>而在時期，結束利用很快維護高手收費稱為我要，信心蒐集汽車營養默認除了東京美國，必須每一個最終春天超。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/500/500/?random=5">
+            <div class="txt">
+                <h3>總算是的十分非常簡。</h3>
+                <p>而在時期，結束利用很快維護高手收費稱為我要，信心蒐集汽車營養默認除了東京美國，必須每一個最終春天超。</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

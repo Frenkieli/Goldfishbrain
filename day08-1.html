@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .main-header {
+            background: linear-gradient(0deg, #cc4380, #fb6c75)
+        }
+
+        .main-header .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .main-header .logo {
+            width: 100px;
+        }
+
+        .main-header .logo img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .main-header .main-nav {
+            display: flex;
+        }
+        .main-header .main-nav:first-of-type {
+            order: -1;
+        }
+
+        .main-header .main-nav a {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 1em;
+            transform: translateY(0px);
+            transition: 0.3s;
+        }
+
+        .main-header .main-nav a:hover {
+            transform: translateY(-5px);
+        }
+
+        .main-header .main-nav a::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            bottom: -5px;
+            height: 0;
+            border-bottom: 1px solid #fff;
+            transition: .3s;
+        }
+
+        .main-header .main-nav a:hover:after {
+            left: 0;
+            right: 0;
+            bottom: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="https://picsum.photos/300/300/?random=1" alt="就是要假圖">
+            </a>
+            <nav class="main-nav">
+                <a href="#">金魚都能懂</a>
+                <a href="#">暴力往入</a>
+            </nav>
+            <nav class="main-nav">
+                <a href="#">ＣＳＳ可樂</a>
+                <a href="#">ＲＷＤ原來這樣子</a>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
