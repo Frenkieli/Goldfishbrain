@@ -73,7 +73,32 @@
     caption-side: bottom;
 ```
 
+* day13 側邊選單怎麼切
+
+>基礎觀念
+
+* day14 收合式側邊選單
+
+>選取器應用
+
+* day15 多層次收合選單
+
+>選取器的原理應用
+
+* day16 訂單進度條
+
+>偽元素運動
+
+* day 17 登入表單
+
+* day22 文字排版-上集
+
+```css
+    column-count: 2;
+    column-gap: 30px;
+```
+
 
 下一個
 
-https://www.youtube.com/watch?v=yB3_LtwBiaE&list=PLqivELodHt3hxeuLX8PYaI8u1GcDaBoJo&index=14
+https://www.youtube.com/watch?v=G5MA36MboNw&list=PLqivELodHt3hxeuLX8PYaI8u1GcDaBoJo&index=18

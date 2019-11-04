@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css' />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            padding: 100px 0;
+        }
+        .container h1{
+            background-color: #d5c7b9;
+            padding:0 15px;
+
+        }
+        .container h1,
+        .container .txt {
+            width: 400px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+        .container h1::after{
+            content: '';
+            display: block;
+            height: 4px;
+            width: 4em;
+            background-color: #000;
+            margin-left: auto;
+        }
+
+        .container .txt {
+            width: 800px;
+            box-sizing: border-box;
+            padding: 0 15px;
+            column-count: 2;
+            column-gap: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="container">
+            <h1>Lorem ipsum dolor imi</h1>
+            <div class="txt">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum iste dolorem eaque assumenda
+                    deleniti praesentium enim est ab magnam voluptatem odit qui sed earum laboriosam, quibusdam quod
+                    recusandae quo accusamus.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum iste dolorem eaque assumenda
+                    deleniti praesentium enim est ab magnam voluptatem odit qui sed earum laboriosam, quibusdam quod
+                    recusandae quo accusamus.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
